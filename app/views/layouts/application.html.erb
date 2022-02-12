@@ -37,28 +37,17 @@
               $.ajax({
                 url: '/homes/index',
                 type: 'GET',
-                dataType: 'jsonp',
+                dataType: 'json',
                 data: {
                   country: "RU"
                 }
               }).done(data => {
-                console.log(data);
+                console.log(data.name);
               });
               break;
           }
           var dialog = document.getElementById("dialog");
-          dialog.style.display = "block";
         }
-        
-        <%# 閉じるボタンが押された時にダイアログを非表示にする関数%>
-        const dialogHide = () => {
-          var dialog = document.getElementById("dialog");
-          dialog.style.display = "none";
-        }
-        
-        <%# DOMでHTMLのボタンが押された時に関数を呼び出す%>
-        let btn = document.getElementById("btn");
-        btn.addEventListener("click", dialogHide);
         
         var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
         
@@ -77,9 +66,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <%= render "layouts/header" %>
     <main>
-      <div id="regions_div" style="width: 900px; height: 750px;"></div>
-    
-      <%= yield %>     
+      <div>
+        <div id="regions_div" class="card" style="width: 900px"></div>
+        <div id="main_contents" class="card bg-light d-inline-block" style="width: 400px;">
+          <h5 class="card-title font-weight-bold sim-header" style="padding-top: 20px;">国を選択して下さい</h5>
+          <div class="card-body px-2 pb-2 pt-0 overflow-auto sim-cards">
+            <%#= render partial: "todos/todo", collection: goal.todos, as: :todo %>
+          </div>
+        </div>
+        <%= yield %>
+      </div>
     </main>
   </body>
 </html>
