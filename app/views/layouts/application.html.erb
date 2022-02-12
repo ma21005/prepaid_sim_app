@@ -43,10 +43,10 @@
                 }
               }).done(data => {
                 console.log(data.name);
+                $(".card-body").html("<%= j(render partial: 'sim', country: data) %>")
               });
               break;
           }
-          var dialog = document.getElementById("dialog");
         }
         
         var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
@@ -71,7 +71,6 @@
         <div id="main_contents" class="card bg-light d-inline-block" style="width: 400px;">
           <h5 class="card-title font-weight-bold sim-header" style="padding-top: 20px;">国を選択して下さい</h5>
           <div class="card-body px-2 pb-2 pt-0 overflow-auto sim-cards">
-            <%#= render partial: "todos/todo", collection: goal.todos, as: :todo %>
           </div>
         </div>
         <%= yield %>
