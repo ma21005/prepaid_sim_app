@@ -31,24 +31,18 @@
         
         <%# クリックされた時に呼び出される関数%>
         const dialogShow = (reg) => {
-          switch(reg.region){
-            case 'RU':
-              <%# ロシアがクリックされた時の処理 %>
-              $.ajax({
-                url: '/homes/index',
-                type: 'GET',
-                dataType: 'json',
-                data: {
-                  country: "RU"
-                }
-              }).done(data => {
-                console.log(data.name);
-                $(".card-body").html("<%= j(render partial: 'sim', country: data) %>")
-              });
-              break;
-          }
-        }
-        
+          <%# ロシアがクリックされた時の処理 %>
+          $.ajax({
+            url: '/homes/index',
+            type: 'GET',
+            dataType: 'html',
+            data: {
+              country: reg.region
+            }
+          }).done(data => {
+            $(".card-body_2").html(data)
+          });
+
         var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
         
         <%# 国がクリックされた時のイベント処理の実行%>
@@ -67,12 +61,6 @@
     <%= render "layouts/header" %>
     <main>
       <div>
-        <div id="regions_div" class="card" style="width: 900px"></div>
-        <div id="main_contents" class="card bg-light d-inline-block" style="width: 400px;">
-          <h5 class="card-title font-weight-bold sim-header" style="padding-top: 20px;">国を選択して下さい</h5>
-          <div class="card-body px-2 pb-2 pt-0 overflow-auto sim-cards">
-          </div>
-        </div>
         <%= yield %>
       </div>
     </main>
