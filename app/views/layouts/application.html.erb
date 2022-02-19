@@ -31,7 +31,6 @@
         
         <%# クリックされた時に呼び出される関数%>
         const dialogShow = (reg) => {
-          <%# ロシアがクリックされた時の処理 %>
           $.ajax({
             url: '/homes/index',
             type: 'GET',
@@ -41,7 +40,8 @@
             }
           }).done(data => {
             $(".card-body_2").html(data)
-          });
+          })
+        };
 
         var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
         
@@ -49,7 +49,7 @@
         google.visualization.events.addListener(chart, 'regionClick', dialogShow);
         
         chart.draw(data, options);
-      }
+      };
     </script>
   </head>
 

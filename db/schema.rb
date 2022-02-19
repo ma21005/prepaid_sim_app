@@ -10,10 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_08_154002) do
+ActiveRecord::Schema.define(version: 2022_02_19_055546) do
 
   create_table "countries", force: :cascade do |t|
     t.text "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "reg_region"
+  end
+
+  create_table "country_sims", force: :cascade do |t|
+    t.integer "country_id"
+    t.integer "sim_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "sims", force: :cascade do |t|
+    t.string "name"
+    t.text "url"
+    t.text "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
