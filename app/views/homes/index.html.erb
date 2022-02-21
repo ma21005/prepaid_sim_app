@@ -1,7 +1,13 @@
 <div class="float-left" style="margin-right: 20px">
-    <div style="height: 120px">
+    <div style="height: 100px">
+        <h5>国名からも検索できます</h5>
         <%# 検索フォーム用エリア%>
-        
+        <%= form_tag search_homes_path, :method => 'get' do %>  <%#「search_homes_path」はsearchアクションへのパス %>
+          <p>
+            <%= text_field_tag :search, params[:search] %>
+            <%= submit_tag "検索", :name => nil %>
+          </p>
+        <% end %>
     </div>
     <div id="regions_div" class="card" style="width: 900px; height: 750px"></div>
 </div>
