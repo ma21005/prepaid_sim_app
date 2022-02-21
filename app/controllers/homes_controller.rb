@@ -10,5 +10,6 @@ class HomesController < ApplicationController
     def search   #検索フォームからの送信
         @country = Country.search(params[:search])
         @sims = @country.sims
+        render partial: "homes/sim", collection: @sims, as: 'sim'
     end
 end
