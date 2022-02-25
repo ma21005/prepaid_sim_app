@@ -50,6 +50,29 @@
         
         chart.draw(data, options);
       };
+      
+      window.onload=function(){
+        const searchbutton = document.getElementById('button1');
+      
+        const button1Click = () => {
+          $.ajax({
+              url: 'homes/search',
+              type: 'GET',
+              dataType: 'html',
+              data: {
+                search: $("#search").val()
+              }
+            }).done(data => {
+              $(".card-body_2").html(data)
+              })
+        };
+        
+        searchbutton.addEventListener('click', button1Click);
+      }
+      
+      
+      
+      
     </script>
   </head>
 

@@ -11,5 +11,6 @@ class HomesController < ApplicationController
         @country = Country.search(params[:search])
         @sims = @country.sims
         render partial: "homes/sim", collection: @sims, as: 'sim'
+        #render :json => @sims
     end
 end
