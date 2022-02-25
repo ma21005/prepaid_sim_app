@@ -1,16 +1,20 @@
-<div class="float-left" style="margin-right: 20px">
-    <div style="height: 100px">
-        <h5>国名からも検索できます</h5>
+<div>
+    <%= image_tag 'main_image.JPG', class:'main_image' %>
+</div>
+<div class="float-left" style="margin: 30px 20px 30px 0;">
+    <div style="height: 80px">
+        <h3 style='font-family:"UD デジタル 教科書体 NK-B"; font-weight: 900;'>行きたい国を地図の中からクリックで選んでください</h3>
         <%# 検索フォーム用エリア%>
           <p>
-            <%= text_field_tag :search, params[:search] %>
-            <%= submit_tag "検索", id: 'button1', :name => nil %>
+            <%= text_field_tag :search, params[:search], {:placeholder => "   国名で検索もできます"}%>
+            <%#= submit_tag "検索", id: 'button1', :name => nil %>
+            <%= button_tag '<i class="fa fa-search"></i>'.html_safe, :type => "submit", :id =>"button1" %>
           </p>
     </div>
     <div id="regions_div" class="card" style="width: 900px; height: 750px"></div>
 </div>
 
-<div id="main_contents" class="card float-left bg-light d-inline-block overflow-auto" style="width: 400px; height: 850px">
+<div id="main_contents" class="card float-left bg-light d-inline-block overflow-auto" style="width: 400px; height: 750px">
     <h5 class="card-title font-weight-bold sim-header" style="padding-top: 20px;">国を選択して下さい</h5>
     <div class="card-body_2 px-2 pb-2 pt-0 overflow-auto sim-cards">
     </div>

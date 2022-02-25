@@ -59,7 +59,33 @@
     margin-top: 10px;
 }
 
+.main_image {
+    height: 450px;
+}
+
 
 #main_contents {
     //background-color: #A5D3AB;
+    margin-top: 110px;
+}
+
+#search {
+    border: 1px solid #999;
+    padding: 3px 5px;
+    border-radius: 20px;
+    height: 2.0em;
+    width: 255px;
+    overflow: hidden;
+}
+
+#button1 {
+    cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #3879D9;
+  outline : none;
+  display: inline-block;
+  vertical-align: middle;
 }
