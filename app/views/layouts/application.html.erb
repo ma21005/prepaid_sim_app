@@ -34,6 +34,17 @@
         <%# クリックされた時に呼び出される関数%>
         const dialogShow = (reg) => {
           $.ajax({
+            url: '/homes/index_2',
+            type: 'GET',
+            dataType: 'json',
+            data: {
+              country: reg.region
+            }
+          }).done(data => {
+            $('.card-title').text(data['name']+'で使えるSIMカード')
+          })
+          
+          $.ajax({
             url: '/homes/index',
             type: 'GET',
             dataType: 'html',
@@ -59,6 +70,17 @@
       
         const button1Click = () => {
           $.ajax({
+              url: 'homes/search_2',
+              type: 'GET',
+              dataType: 'json',
+              data: {
+                search: $("#search").val()
+              }
+            }).done(data => {
+              $('.card-title').text(data['name']+'で使えるSIMカード')
+            })
+          
+          $.ajax({
               url: 'homes/search',
               type: 'GET',
               dataType: 'html',
@@ -67,7 +89,7 @@
               }
             }).done(data => {
               $(".card-body_2").html(data)
-              })
+            })
         };
         
         searchbutton.addEventListener('click', button1Click);
