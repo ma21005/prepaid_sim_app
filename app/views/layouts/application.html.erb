@@ -20,7 +20,8 @@
         const data = google.visualization.arrayToDataTable([
           ['Country', 'Name'],
           ['United States', 'アメリカ合衆国'],
-          ['RU', 'ロシア']
+          ['RU', 'ロシア'],
+          ['Germany', 'ドイツ連邦共和国']
         ]);
 
         const options = {
@@ -93,6 +94,13 @@
         };
         
         searchbutton.addEventListener('click', button1Click);
+        
+        <%# 検索フォームで検索ボタンを押さなくてもエンターキーを叩けば関数button1Clickが実行されるようになる %>
+        $("#search").keypress(function(e){
+          if(e.which == 13){
+            $("#button1").click();
+          }
+        });
       }
       
       
