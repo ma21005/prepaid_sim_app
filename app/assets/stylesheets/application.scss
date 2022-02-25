@@ -25,9 +25,8 @@
   display: flex;
   width: auto;
   height: auto;
-  background-color: darkgrey;
-  height: 120px;
-  background-image: url("header_image.jpg");
+  background-color: white;
+  height: 60px;
   background-size:  cover;
 }
 
@@ -52,4 +51,15 @@
 
 .float-left {
     float: left;    
+}
+
+.header_text {
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+#main_contents {
+    //background-color: #A5D3AB;
 }
