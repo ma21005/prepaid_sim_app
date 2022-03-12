@@ -265,11 +265,15 @@ Sim.create(name: 'Wi-Ho!SIM(ヨーロッパ)', url: 'https://www.amazon.co.jp/%E
 Sim.create(name: 'Wi-Ho!SIM(アジア)', url: 'https://www.amazon.co.jp/%E3%80%90%E6%B5%B7%E5%A4%96SIM%E3%81%AA%E3%82%89Wi-Ho-SIM%E3%80%91%E3%82%A2%E3%82%B8%E3%82%A2%E5%91%A8%E9%81%8A-10%E3%82%AB%E5%9B%BD%E5%AF%BE%E5%BF%9C-SIM%E3%83%94%E3%83%B3%E4%BB%98%E3%81%8D-%E6%97%A5%E6%9C%AC%E8%AA%9E24H%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/dp/B07PY5GVK5/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1EZZV9GXC16V9&keywords=Wi-Ho%21SIM&qid=1646052691&sprefix=wi-ho+sim%2Caps%2C173&sr=8-5
 ', content: '8日-毎日500MB', price: '1390円')
 Sim.create(name: '変なSIM', url: 'https://www.amazon.co.jp/%E3%80%90%E4%B8%96%E7%95%8C%E3%81%A9%E3%81%93%E3%81%A7%E3%82%821%E6%97%A5500%E5%86%86%E3%80%91H-I-S-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB-%E6%B5%B7%E5%A4%96%E4%B8%BB%E8%A6%81%E9%83%BD%E5%B8%82%E5%AF%BE%E5%BF%9C-%E5%AE%89%E5%BF%83%E3%81%AE%E6%97%A5%E6%9C%AC%E8%A3%BD-%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E3%82%BF%E3%82%A4%E3%83%97-HMT-HS2-PT/dp/B07MNR2WTH/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1L0KGLUOUCY8L&keywords=%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8C%2Bsim&qid=1646051200&s=electronics&sprefix=%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8Csim%2Celectronics%2C189&sr=1-4&th=1
-', content: '1日-200MB(500円、繰り返し購入可能)', price: '2074円')
+', content: '1日-200MB(500円:繰り返し購入可能)', price: '2074円')
 Sim.create(name: 'Hot Taiwan', url: 'https://www.amazon.co.jp/Taiwan-%E5%8F%B0%E6%B9%BESIM%E3%82%AB%E3%83%BC%E3%83%89-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88-4G%E3%83%BB3G%E3%83%87%E3%83%BC%E3%82%BF%E9%80%9A%E4%BF%A1%E9%AB%98%E9%80%9F%E7%84%A1%E5%88%B6%E9%99%90%E4%BD%BF%E3%81%84%E6%94%BE%E9%A1%8C%EF%BC%88%E9%80%9F%E5%BA%A6%E5%88%B6%E9%99%90%E3%81%AA%E3%81%97%EF%BC%89SIM-TSTAR%E5%8F%B0%E6%B9%BE%E4%B9%8B%E6%98%9F-Days/dp/B07VC364X8/ref=sr_1_75?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1L0KGLUOUCY8L&keywords=%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8C+sim&qid=1646052147&s=electronics&sprefix=%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8Csim%2Celectronics%2C189&sr=1-75
 ', content: '3、4、5、7、12日-使い放題', price: '790円、890円、990円、1190円、1690円')
 Sim.create(name: 'Orange Holiday', url: 'https://www.amazon.co.jp/%E3%80%90Amazon%E9%99%90%E5%AE%9A%E3%80%91Orange-Holiday-%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%91-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89SIM%E3%82%AB%E3%83%BC%E3%83%89-SIM%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%80%81SIM%E5%8F%96%E3%82%8A%E5%87%BA%E3%81%97%E3%83%94%E3%83%B3/dp/B07QYV2NQ6/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=K2YJK50ZMEZ9&keywords=sim%2B%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8C&qid=1646052930&sprefix=sim%2B%E6%B5%B7%E5%A4%96%E6%97%85%E8%A1%8C%2Caps%2C187&sr=8-6&th=1
 ', content: '14日-8GB、14日-20GB(音声通話可能)', price: '2799円、5760円')
+Sim.create(name: '中東SIM', url: 'https://www.amazon.co.jp/%E3%80%90%E3%81%8A%E6%80%A5%E3%81%8E%E4%BE%BF%E3%80%91%E4%B8%AD%E6%9D%B1-SIM%E3%82%AB%E3%83%BC%E3%83%89-Middle-East%E3%80%90%E9%80%9A%E4%BF%A1%E5%B0%82%E9%96%80%E5%BA%97%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%8D%E3%83%83%E3%83%88%E5%8E%B3%E9%81%B8%E3%80%91-UAE%E3%83%BB%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2%E3%83%BB%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%BF%E3%83%BC%E3%83%AB/dp/B084X5S15K/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3IUDVI2G3X5SJ&keywords=%E4%B8%AD%E6%9D%B1%2Bsim&qid=1646750448&sprefix=%E4%B8%AD%E6%9D%B1sim%2Caps%2C182&sr=8-5&th=1
+', content: '8日-4GB', price: '1680円')
+Sim.create(name: '中東SIM', url: 'https://www.amazon.co.jp/%E3%80%90%E3%81%8A%E6%80%A5%E3%81%8E%E4%BE%BF%E3%80%91%E4%B8%AD%E6%9D%B1-SIM%E3%82%AB%E3%83%BC%E3%83%89-Middle-East%E3%80%90%E9%80%9A%E4%BF%A1%E5%B0%82%E9%96%80%E5%BA%97%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%8D%E3%83%83%E3%83%88%E5%8E%B3%E9%81%B8%E3%80%91-UAE%E3%83%BB%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2%E3%83%BB%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%BF%E3%83%BC%E3%83%AB/dp/B084X7P1R9/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3IUDVI2G3X5SJ&keywords=%E4%B8%AD%E6%9D%B1%2Bsim&qid=1646750448&sprefix=%E4%B8%AD%E6%9D%B1sim%2Caps%2C182&sr=8-5&th=1
+', content: '15日-4GB', price: '3980円')
 
 
 CountrySim.create(country_id: 89, sim_id: 1)
@@ -629,3 +633,59 @@ CountrySim.create(country_id: 215, sim_id: 13) #ハワイ
 
 
 CountrySim.create(country_id: 90, sim_id: 14) #台湾
+
+
+CountrySim.create(country_id: 46, sim_id: 15) #ウクライナ
+CountrySim.create(country_id: 49, sim_id: 15) #スロバキア
+CountrySim.create(country_id: 57, sim_id: 15) #チェコ
+CountrySim.create(country_id: 55, sim_id: 15) #ハンガリー
+CountrySim.create(country_id: 51, sim_id: 15) #ブルガリア
+CountrySim.create(country_id: 45, sim_id: 15) #ベラルーシ
+CountrySim.create(country_id: 48, sim_id: 15) #ポーランド
+CountrySim.create(country_id: 47, sim_id: 15) #モルドバ
+CountrySim.create(country_id: 50, sim_id: 15) #ルーマニア
+CountrySim.create(country_id: 38, sim_id: 15) #ロシア
+CountrySim.create(country_id: 64, sim_id: 15) #オーストリア
+CountrySim.create(country_id: 58, sim_id: 15) #オランダ
+CountrySim.create(country_id: 69, sim_id: 15) #スイス
+CountrySim.create(country_id: 53, sim_id: 15) #ドイツ
+CountrySim.create(country_id: 60, sim_id: 15) #フランス
+CountrySim.create(country_id: 59, sim_id: 15) #ベルギー
+CountrySim.create(country_id: 72, sim_id: 15) #モナコ
+CountrySim.create(country_id: 71, sim_id: 15) #リヒテンシュタイン
+CountrySim.create(country_id: 65, sim_id: 15) #ルクセンブルク
+CountrySim.create(country_id: 77, sim_id: 15) #アルバニア
+CountrySim.create(country_id: 70, sim_id: 15) #アンドラ
+CountrySim.create(country_id: 68, sim_id: 15) #イタリア
+CountrySim.create(country_id: 83, sim_id: 15) #北マケドニア
+CountrySim.create(country_id: 52, sim_id: 15) #ギリシャ
+CountrySim.create(country_id: 79, sim_id: 15) #クロアチア
+CountrySim.create(country_id: 73, sim_id: 15) #サンマリノ
+CountrySim.create(country_id: 66, sim_id: 15) #スペイン
+CountrySim.create(country_id: 78, sim_id: 15) #スロベニア
+CountrySim.create(country_id: 56, sim_id: 15) #セルビア
+CountrySim.create(country_id: 76, sim_id: 15) #バチカン
+CountrySim.create(country_id: 80, sim_id: 15) #ボスニアヘルツェゴビナ
+CountrySim.create(country_id: 67, sim_id: 15) #ポルトガル
+CountrySim.create(country_id: 75, sim_id: 15) #マルタ
+CountrySim.create(country_id: 81, sim_id: 15) #モンテネグロ
+CountrySim.create(country_id: 63, sim_id: 15) #アイスランド
+CountrySim.create(country_id: 62, sim_id: 15) #アイルランド
+CountrySim.create(country_id: 61, sim_id: 15) #イギリス
+CountrySim.create(country_id: 42, sim_id: 15) #エストニア
+CountrySim.create(country_id: 40, sim_id: 15) #スウェーデン
+CountrySim.create(country_id: 54, sim_id: 15) #デンマーク
+CountrySim.create(country_id: 41, sim_id: 15) #ノルウェー
+CountrySim.create(country_id: 39, sim_id: 15) #フィンランド
+CountrySim.create(country_id: 43, sim_id: 15) #ラトビア
+CountrySim.create(country_id: 44, sim_id: 15) #リトアニア
+
+CountrySim.create(country_id: 110, sim_id: 16) #カタール
+CountrySim.create(country_id: 85, sim_id: 16) #イスラエル
+
+CountrySim.create(country_id: 110, sim_id: 17) #カタール
+CountrySim.create(country_id: 85, sim_id: 17) #イスラエル
+CountrySim.create(country_id: 109, sim_id: 17) #サウジアラビア
+CountrySim.create(country_id: 128, sim_id: 17) #クウェート
+CountrySim.create(country_id: 111, sim_id: 17) #オマーン
+CountrySim.create(country_id: 113, sim_id: 17) #アラブ首長国連邦
